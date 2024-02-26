@@ -32,7 +32,7 @@ def main():
     largest_thread = threading.Thread(target=largest, args=(numbers,))
     smallest_thread = threading.Thread(target=smaller, args=(numbers,))
     #no olvidar que despues de declarar numero entre parentecis
-
+#hay que aprender mas de como va la sintax
     input_thread.start()
     input_thread.join()
     largest_thread.start()
